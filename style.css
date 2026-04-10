@@ -1494,3 +1494,109 @@ p {
     gap: 0.4rem;
   }
 }
+
+/* ============================================
+   ARTICLE TABLES
+   ============================================ */
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-size: 0.9rem;
+}
+.article-body thead th {
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--gold);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(201, 169, 110, 0.3);
+}
+.article-body tbody td {
+  padding: 0.7rem 1rem;
+  color: var(--text-offwhite);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  line-height: 1.5;
+}
+.article-body tbody tr:hover {
+  background: rgba(201, 169, 110, 0.04);
+}
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0 2rem;
+}
+/* ============================================
+   ARTICLE HERO IMAGE
+   ============================================ */
+.article-hero img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+/* ============================================
+   ARTICLE LINKS
+   ============================================ */
+.article-body a {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201, 169, 110, 0.3);
+  transition: border-color var(--transition);
+}
+.article-body a:hover {
+  border-bottom-color: var(--gold);
+}
+/* ============================================
+   ARTICLE LISTS
+   ============================================ */
+.article-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+.article-body ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  color: var(--text-offwhite);
+  line-height: 1.7;
+}
+.article-body ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  background: var(--gold);
+  border-radius: 50%;
+}
+.article-body ol {
+  counter-reset: item;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+.article-body ol li {
+  counter-increment: item;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  color: var(--text-offwhite);
+  line-height: 1.7;
+}
+.article-body ol li::before {
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold);
+}
