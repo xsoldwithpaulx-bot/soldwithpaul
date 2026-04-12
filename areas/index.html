@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Areas We Serve | Paul Fernandez REALTOR — Sold With Paul</title>
+  <meta name="description" content="Paul Fernandez serves 10 cities across Los Angeles, Orange, Riverside, and San Bernardino counties. 200+ transactions, 103% list-to-sold ratio. Find your city for current market data.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://soldwithpaul.com/areas/">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <meta property="og:title" content="Areas We Serve | Sold With Paul">
+  <meta property="og:description" content="Paul Fernandez serves 10 cities across Southern California. Current market data, neighborhood insights, and free home valuations.">
+  <meta property="og:url" content="https://soldwithpaul.com/areas/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://soldwithpaul.com/assets/paul-headshot.jpg">
+  <meta property="og:site_name" content="Sold With Paul">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@soldwithpaul">
+  <meta name="twitter:title" content="Areas We Serve | Sold With Paul">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RD4PN9FCS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6RD4PN9FCS');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://soldwithpaul.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Areas We Serve",
+        "item": "https://soldwithpaul.com/areas/"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap">
+  <style>
+    :root {
+      --bg-deep: #0d0d1a;
+      --gold: #d4af37;
+      --gold-dim: rgba(212, 175, 55, 0.25);
+      --gold-glow: rgba(212, 175, 55, 0.08);
+      --white: #ffffff;
+      --gray: #cccccc;
+      --gray-dim: #888888;
+      --card-bg: rgba(255,255,255,0.05);
+      --card-border: rgba(212, 175, 55, 0.3);
+    }
+
+    .areas-page {
+      background: var(--bg-deep);
+      color: var(--white);
+      font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .areas-hero {
+      text-align: center;
+      padding: 4rem 2rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .areas-hero h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 1rem;
+    }
+    .areas-hero h1 span {
+      color: var(--gold);
+    }
+    .areas-hero p {
+      color: var(--gray);
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+
+    .areas-content {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 2rem 4rem;
+    }
+
+    .county-group {
+      margin-bottom: 3rem;
+    }
+    .county-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--gold-dim);
+    }
+
+    .area-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .area-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: var(--white);
+      transition: border-color 0.25s, box-shadow 0.25s, transform 0.2s;
+      position: relative;
+    }
+    .area-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 0 24px var(--gold-glow);
+      transform: translateY(-3px);
+    }
+    .area-card h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin: 0 0 0.75rem;
+    }
+    .area-card-stats {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+    }
+    .area-price {
+      color: var(--gold);
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+    .area-type {
+      font-size: 0.8rem;
+      color: var(--gray-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .area-card-arrow {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      color: var(--gold);
+      font-size: 1.2rem;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .area-card:hover .area-card-arrow {
+      opacity: 1;
+    }
+
+    .areas-cta {
+      text-align: center;
+      padding: 3rem 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .areas-cta p {
+      color: var(--gray);
+      font-size: 1.05rem;
+      margin-bottom: 1.5rem;
+    }
+    .areas-cta .cta-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--bg-deep);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.9rem 2.4rem;
+      border-radius: 4px;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .areas-cta .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(212, 175, 55, 0.35);
+    }
+
+    @media (max-width: 768px) {
+      .areas-hero { padding: 2.5rem 1.25rem 1.5rem; }
+      .areas-content { padding: 1.5rem 1.25rem 3rem; }
+      .area-cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="areas-page">
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="../index.html" class="nav-logo">SOLD WITH PAUL</a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="./" class="active">Areas</a>
+        <a href="../blog.html">Blog</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="./" class="active">Areas</a>
+    <a href="../blog.html">Blog</a>
+    <a href="../contact.html">Contact</a>
+  </div>
+
+  <section class="areas-hero">
+    <h1>Areas <span>We Serve</span></h1>
+    <p>Paul Fernandez serves 10 cities across Los Angeles, Orange, Riverside, and San Bernardino counties. Select your city for current market data, neighborhood insights, and a free home valuation.</p>
+  </section>
+
+  <div class="areas-content">
+
+      <div class="county-group">
+        <h2 class="county-title">Los Angeles County</h2>
+        <div class="area-cards">
+
+          <a href="cerritos.html" class="area-card">
+            <h3>Cerritos</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$1,157,263</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+          <a href="downey.html" class="area-card">
+            <h3>Downey</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$998,425</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+          <a href="la-mirada.html" class="area-card">
+            <h3>La Mirada</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$926,554</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+          <a href="norwalk.html" class="area-card">
+            <h3>Norwalk</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$740,369</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+          <a href="whittier.html" class="area-card">
+            <h3>Whittier</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$859,776</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="county-group">
+        <h2 class="county-title">Orange County</h2>
+        <div class="area-cards">
+
+          <a href="brea.html" class="area-card">
+            <h3>Brea</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$1,331,329</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+          <a href="fullerton.html" class="area-card">
+            <h3>Fullerton</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$1,266,569</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="county-group">
+        <h2 class="county-title">Riverside County</h2>
+        <div class="area-cards">
+
+          <a href="corona.html" class="area-card">
+            <h3>Corona</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$775,940</span>
+              <span class="area-type">Balanced Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+          <a href="temecula.html" class="area-card">
+            <h3>Temecula</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$948,319</span>
+              <span class="area-type">Balanced Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="county-group">
+        <h2 class="county-title">San Bernardino County</h2>
+        <div class="area-cards">
+
+          <a href="chino-hills.html" class="area-card">
+            <h3>Chino Hills</h3>
+            <div class="area-card-stats">
+              <span class="area-price">$1,019,738</span>
+              <span class="area-type">Seller's Market</span>
+            </div>
+            <span class="area-card-arrow">→</span>
+          </a>
+        </div>
+      </div>
+  </div>
+
+  <section class="areas-cta">
+    <p>Don't see your city? Paul serves all of Southern California. Contact us for a free market analysis anywhere in LA, Orange, Riverside, or San Bernardino County.</p>
+    <a href="../contact.html" class="cta-btn">Contact Paul</a>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="nav-logo">SOLD WITH PAUL</a>
+          <p class="tagline">Southern California Seller Representation</p>
+          <p class="license">CA DRE# 01835505</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../contact.html">Contact</a>
+            <a href="https://hmbt.co/LzB884" target="_blank" rel="noopener noreferrer">Home Valuation</a>
+            <a href="https://outlook.office.com/book/Gc85aea630086427c9a47200c18fcf3a0@NETORG336472.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Schedule Consultation</a>
+          </div>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="footer-social">
+            <a href="https://x.com/soldwithpaul" target="_blank" rel="noopener noreferrer">X</a>
+            <a href="https://www.instagram.com/soldwithpaul/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/soldwithpaul" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.linkedin.com/in/pbfernandez/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.youtube.com/@soldwithpaul" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://www.zillow.com/profile/soldwithpaul" target="_blank" rel="noopener noreferrer">Zillow</a>
+            <a href="https://share.google/wNODHjffOS3GZD7PT" target="_blank" rel="noopener noreferrer">Google</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Paul Fernandez, Realtor. CA DRE# 01835505. NexGen Realtors.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../app.js"></script>
+</body>
+</html>
