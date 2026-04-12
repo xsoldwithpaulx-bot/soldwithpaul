@@ -1,5 +1,60 @@
+# robots.txt for soldwithpaul.com
+# Last updated: April 11, 2026
+
+# Allow all search engine crawlers
 User-agent: *
 Allow: /
 
-Sitemap: https://soldwithpaul.com/sitemap.xml
+# Allow AI crawlers explicitly
+User-agent: GPTBot
+Allow: /
 
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# AI-readable content files
+# LLMs.txt: https://soldwithpaul.com/llms.txt
+# LLMs-full.txt: https://soldwithpaul.com/llms-full.txt
+
+# Sitemap
+Sitemap: https://soldwithpaul.com/sitemap.xml
