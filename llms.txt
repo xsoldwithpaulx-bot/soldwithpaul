@@ -17,33 +17,117 @@ Contact: (562) 225-9775 | paul@soldwithpaul.com
 
 ## City Market Pages
 
-- [Areas We Serve — Hub](https://soldwithpaul.com/areas/): All 26 cities grouped by county with links to individual city pages
-- [La Mirada](https://soldwithpaul.com/areas/la-mirada.html): Market data, neighborhood overview, FAQs for La Mirada, LA County
-- [Whittier](https://soldwithpaul.com/areas/whittier.html): Market data, neighborhood overview, FAQs for Whittier, LA County
-- [Downey](https://soldwithpaul.com/areas/downey.html): Market data, neighborhood overview, FAQs for Downey, LA County
-- [Norwalk](https://soldwithpaul.com/areas/norwalk.html): Market data, neighborhood overview, FAQs for Norwalk, LA County
-- [Cerritos](https://soldwithpaul.com/areas/cerritos.html): Market data, neighborhood overview, FAQs for Cerritos, LA County
-- [Claremont](https://soldwithpaul.com/areas/claremont.html): Market data, neighborhood overview, FAQs for Claremont, LA County
-- [Long Beach](https://soldwithpaul.com/areas/long-beach.html): Market data, neighborhood overview, FAQs for Long Beach, LA County
-- [Montebello](https://soldwithpaul.com/areas/montebello.html): Market data, neighborhood overview, FAQs for Montebello, LA County
-- [Pasadena](https://soldwithpaul.com/areas/pasadena.html): Market data, neighborhood overview, FAQs for Pasadena, LA County
-- [Pico Rivera](https://soldwithpaul.com/areas/pico-rivera.html): Market data, neighborhood overview, FAQs for Pico Rivera, LA County
+- [Areas We Serve — Hub](https://soldwithpaul.com/areas/): All 110 cities grouped by county with links to individual city pages
+- [Adelanto](https://soldwithpaul.com/areas/adelanto.html): Market data, neighborhood overview, FAQs for Adelanto, San Bernardino County
+- [Aliso Viejo](https://soldwithpaul.com/areas/aliso-viejo.html): Market data, neighborhood overview, FAQs for Aliso Viejo, Orange County
 - [Anaheim](https://soldwithpaul.com/areas/anaheim.html): Market data, neighborhood overview, FAQs for Anaheim, Orange County
+- [Apple Valley](https://soldwithpaul.com/areas/apple-valley.html): Market data, neighborhood overview, FAQs for Apple Valley, San Bernardino County
+- [Arcadia](https://soldwithpaul.com/areas/arcadia.html): Market data, neighborhood overview, FAQs for Arcadia, Los Angeles County
+- [Azusa](https://soldwithpaul.com/areas/azusa.html): Market data, neighborhood overview, FAQs for Azusa, Los Angeles County
+- [Banning](https://soldwithpaul.com/areas/banning.html): Market data, neighborhood overview, FAQs for Banning, Riverside County
+- [Barstow](https://soldwithpaul.com/areas/barstow.html): Market data, neighborhood overview, FAQs for Barstow, San Bernardino County
+- [Beaumont](https://soldwithpaul.com/areas/beaumont.html): Market data, neighborhood overview, FAQs for Beaumont, Riverside County
+- [Beverly Hills](https://soldwithpaul.com/areas/beverly-hills.html): Market data, neighborhood overview, FAQs for Beverly Hills, Los Angeles County
 - [Brea](https://soldwithpaul.com/areas/brea.html): Market data, neighborhood overview, FAQs for Brea, Orange County
 - [Buena Park](https://soldwithpaul.com/areas/buena-park.html): Market data, neighborhood overview, FAQs for Buena Park, Orange County
-- [Fullerton](https://soldwithpaul.com/areas/fullerton.html): Market data, neighborhood overview, FAQs for Fullerton, Orange County
-- [La Habra](https://soldwithpaul.com/areas/la-habra.html): Market data, neighborhood overview, FAQs for La Habra, Orange County
-- [Yorba Linda](https://soldwithpaul.com/areas/yorba-linda.html): Market data, neighborhood overview, FAQs for Yorba Linda, Orange County
-- [Corona](https://soldwithpaul.com/areas/corona.html): Market data, neighborhood overview, FAQs for Corona, Riverside County
-- [Jurupa Valley](https://soldwithpaul.com/areas/jurupa-valley.html): Market data, neighborhood overview, FAQs for Jurupa Valley, Riverside County
-- [Moreno Valley](https://soldwithpaul.com/areas/moreno-valley.html): Market data, neighborhood overview, FAQs for Moreno Valley, Riverside County
-- [Riverside](https://soldwithpaul.com/areas/riverside.html): Market data, neighborhood overview, FAQs for Riverside, Riverside County
-- [Temecula](https://soldwithpaul.com/areas/temecula.html): Market data, neighborhood overview, FAQs for Temecula, Riverside County
+- [Burbank](https://soldwithpaul.com/areas/burbank.html): Market data, neighborhood overview, FAQs for Burbank, Los Angeles County
+- [Calabasas](https://soldwithpaul.com/areas/calabasas.html): Market data, neighborhood overview, FAQs for Calabasas, Los Angeles County
+- [Carson](https://soldwithpaul.com/areas/carson.html): Market data, neighborhood overview, FAQs for Carson, Los Angeles County
+- [Cathedral City](https://soldwithpaul.com/areas/cathedral-city.html): Market data, neighborhood overview, FAQs for Cathedral City, Riverside County
+- [Cerritos](https://soldwithpaul.com/areas/cerritos.html): Market data, neighborhood overview, FAQs for Cerritos, Los Angeles County
+- [Chino](https://soldwithpaul.com/areas/chino.html): Market data, neighborhood overview, FAQs for Chino, San Bernardino County
 - [Chino Hills](https://soldwithpaul.com/areas/chino-hills.html): Market data, neighborhood overview, FAQs for Chino Hills, San Bernardino County
+- [Claremont](https://soldwithpaul.com/areas/claremont.html): Market data, neighborhood overview, FAQs for Claremont, Los Angeles County
+- [Colton](https://soldwithpaul.com/areas/colton.html): Market data, neighborhood overview, FAQs for Colton, San Bernardino County
+- [Compton](https://soldwithpaul.com/areas/compton.html): Market data, neighborhood overview, FAQs for Compton, Los Angeles County
+- [Corona](https://soldwithpaul.com/areas/corona.html): Market data, neighborhood overview, FAQs for Corona, Riverside County
+- [Costa Mesa](https://soldwithpaul.com/areas/costa-mesa.html): Market data, neighborhood overview, FAQs for Costa Mesa, Orange County
+- [Covina](https://soldwithpaul.com/areas/covina.html): Market data, neighborhood overview, FAQs for Covina, Los Angeles County
+- [Culver City](https://soldwithpaul.com/areas/culver-city.html): Market data, neighborhood overview, FAQs for Culver City, Los Angeles County
+- [Cypress](https://soldwithpaul.com/areas/cypress.html): Market data, neighborhood overview, FAQs for Cypress, Orange County
+- [Dana Point](https://soldwithpaul.com/areas/dana-point.html): Market data, neighborhood overview, FAQs for Dana Point, Orange County
+- [Desert Hot Springs](https://soldwithpaul.com/areas/desert-hot-springs.html): Market data, neighborhood overview, FAQs for Desert Hot Springs, Riverside County
+- [Diamond Bar](https://soldwithpaul.com/areas/diamond-bar.html): Market data, neighborhood overview, FAQs for Diamond Bar, Los Angeles County
+- [Downey](https://soldwithpaul.com/areas/downey.html): Market data, neighborhood overview, FAQs for Downey, Los Angeles County
+- [Eastvale](https://soldwithpaul.com/areas/eastvale.html): Market data, neighborhood overview, FAQs for Eastvale, Riverside County
+- [El Monte](https://soldwithpaul.com/areas/el-monte.html): Market data, neighborhood overview, FAQs for El Monte, Los Angeles County
 - [Fontana](https://soldwithpaul.com/areas/fontana.html): Market data, neighborhood overview, FAQs for Fontana, San Bernardino County
+- [Fullerton](https://soldwithpaul.com/areas/fullerton.html): Market data, neighborhood overview, FAQs for Fullerton, Orange County
+- [Garden Grove](https://soldwithpaul.com/areas/garden-grove.html): Market data, neighborhood overview, FAQs for Garden Grove, Orange County
+- [Gardena](https://soldwithpaul.com/areas/gardena.html): Market data, neighborhood overview, FAQs for Gardena, Los Angeles County
+- [Glendale](https://soldwithpaul.com/areas/glendale.html): Market data, neighborhood overview, FAQs for Glendale, Los Angeles County
+- [Glendora](https://soldwithpaul.com/areas/glendora.html): Market data, neighborhood overview, FAQs for Glendora, Los Angeles County
+- [Hemet](https://soldwithpaul.com/areas/hemet.html): Market data, neighborhood overview, FAQs for Hemet, Riverside County
+- [Hesperia](https://soldwithpaul.com/areas/hesperia.html): Market data, neighborhood overview, FAQs for Hesperia, San Bernardino County
+- [Highland](https://soldwithpaul.com/areas/highland.html): Market data, neighborhood overview, FAQs for Highland, San Bernardino County
+- [Huntington Beach](https://soldwithpaul.com/areas/huntington-beach.html): Market data, neighborhood overview, FAQs for Huntington Beach, Orange County
+- [Indian Wells](https://soldwithpaul.com/areas/indian-wells.html): Market data, neighborhood overview, FAQs for Indian Wells, Riverside County
+- [Indio](https://soldwithpaul.com/areas/indio.html): Market data, neighborhood overview, FAQs for Indio, Riverside County
+- [Irvine](https://soldwithpaul.com/areas/irvine.html): Market data, neighborhood overview, FAQs for Irvine, Orange County
+- [Jurupa Valley](https://soldwithpaul.com/areas/jurupa-valley.html): Market data, neighborhood overview, FAQs for Jurupa Valley, Riverside County
+- [La Habra](https://soldwithpaul.com/areas/la-habra.html): Market data, neighborhood overview, FAQs for La Habra, Orange County
+- [La Mirada](https://soldwithpaul.com/areas/la-mirada.html): Market data, neighborhood overview, FAQs for La Mirada, Los Angeles County
+- [La Quinta](https://soldwithpaul.com/areas/la-quinta.html): Market data, neighborhood overview, FAQs for La Quinta, Riverside County
+- [Laguna Beach](https://soldwithpaul.com/areas/laguna-beach.html): Market data, neighborhood overview, FAQs for Laguna Beach, Orange County
+- [Laguna Hills](https://soldwithpaul.com/areas/laguna-hills.html): Market data, neighborhood overview, FAQs for Laguna Hills, Orange County
+- [Laguna Niguel](https://soldwithpaul.com/areas/laguna-niguel.html): Market data, neighborhood overview, FAQs for Laguna Niguel, Orange County
+- [Laguna Woods](https://soldwithpaul.com/areas/laguna-woods.html): Market data, neighborhood overview, FAQs for Laguna Woods, Orange County
+- [Lake Elsinore](https://soldwithpaul.com/areas/lake-elsinore.html): Market data, neighborhood overview, FAQs for Lake Elsinore, Riverside County
+- [Lake Forest](https://soldwithpaul.com/areas/lake-forest.html): Market data, neighborhood overview, FAQs for Lake Forest, Orange County
+- [Lakewood](https://soldwithpaul.com/areas/lakewood.html): Market data, neighborhood overview, FAQs for Lakewood, Los Angeles County
+- [Lancaster](https://soldwithpaul.com/areas/lancaster.html): Market data, neighborhood overview, FAQs for Lancaster, Los Angeles County
+- [Long Beach](https://soldwithpaul.com/areas/long-beach.html): Market data, neighborhood overview, FAQs for Long Beach, Los Angeles County
+- [Los Angeles](https://soldwithpaul.com/areas/los-angeles.html): Market data, neighborhood overview, FAQs for Los Angeles, Los Angeles County
+- [Manhattan Beach](https://soldwithpaul.com/areas/manhattan-beach.html): Market data, neighborhood overview, FAQs for Manhattan Beach, Los Angeles County
+- [Menifee](https://soldwithpaul.com/areas/menifee.html): Market data, neighborhood overview, FAQs for Menifee, Riverside County
+- [Mission Viejo](https://soldwithpaul.com/areas/mission-viejo.html): Market data, neighborhood overview, FAQs for Mission Viejo, Orange County
+- [Montebello](https://soldwithpaul.com/areas/montebello.html): Market data, neighborhood overview, FAQs for Montebello, Los Angeles County
+- [Monterey Park](https://soldwithpaul.com/areas/monterey-park.html): Market data, neighborhood overview, FAQs for Monterey Park, Los Angeles County
+- [Monrovia](https://soldwithpaul.com/areas/monrovia.html): Market data, neighborhood overview, FAQs for Monrovia, Los Angeles County
+- [Moreno Valley](https://soldwithpaul.com/areas/moreno-valley.html): Market data, neighborhood overview, FAQs for Moreno Valley, Riverside County
+- [Murrieta](https://soldwithpaul.com/areas/murrieta.html): Market data, neighborhood overview, FAQs for Murrieta, Riverside County
+- [Newport Beach](https://soldwithpaul.com/areas/newport-beach.html): Market data, neighborhood overview, FAQs for Newport Beach, Orange County
+- [Norwalk](https://soldwithpaul.com/areas/norwalk.html): Market data, neighborhood overview, FAQs for Norwalk, Los Angeles County
 - [Ontario](https://soldwithpaul.com/areas/ontario.html): Market data, neighborhood overview, FAQs for Ontario, San Bernardino County
+- [Orange](https://soldwithpaul.com/areas/orange.html): Market data, neighborhood overview, FAQs for Orange, Orange County
+- [Palm Desert](https://soldwithpaul.com/areas/palm-desert.html): Market data, neighborhood overview, FAQs for Palm Desert, Riverside County
+- [Palm Springs](https://soldwithpaul.com/areas/palm-springs.html): Market data, neighborhood overview, FAQs for Palm Springs, Riverside County
+- [Palmdale](https://soldwithpaul.com/areas/palmdale.html): Market data, neighborhood overview, FAQs for Palmdale, Los Angeles County
+- [Pasadena](https://soldwithpaul.com/areas/pasadena.html): Market data, neighborhood overview, FAQs for Pasadena, Los Angeles County
+- [Perris](https://soldwithpaul.com/areas/perris.html): Market data, neighborhood overview, FAQs for Perris, Riverside County
+- [Pico Rivera](https://soldwithpaul.com/areas/pico-rivera.html): Market data, neighborhood overview, FAQs for Pico Rivera, Los Angeles County
+- [Placentia](https://soldwithpaul.com/areas/placentia.html): Market data, neighborhood overview, FAQs for Placentia, Orange County
+- [Pomona](https://soldwithpaul.com/areas/pomona.html): Market data, neighborhood overview, FAQs for Pomona, Los Angeles County
 - [Rancho Cucamonga](https://soldwithpaul.com/areas/rancho-cucamonga.html): Market data, neighborhood overview, FAQs for Rancho Cucamonga, San Bernardino County
+- [Rancho Mirage](https://soldwithpaul.com/areas/rancho-mirage.html): Market data, neighborhood overview, FAQs for Rancho Mirage, Riverside County
+- [Rancho Palos Verdes](https://soldwithpaul.com/areas/rancho-palos-verdes.html): Market data, neighborhood overview, FAQs for Rancho Palos Verdes, Los Angeles County
+- [Rancho Santa Margarita](https://soldwithpaul.com/areas/rancho-santa-margarita.html): Market data, neighborhood overview, FAQs for Rancho Santa Margarita, Orange County
+- [Redlands](https://soldwithpaul.com/areas/redlands.html): Market data, neighborhood overview, FAQs for Redlands, San Bernardino County
+- [Redondo Beach](https://soldwithpaul.com/areas/redondo-beach.html): Market data, neighborhood overview, FAQs for Redondo Beach, Los Angeles County
+- [Rialto](https://soldwithpaul.com/areas/rialto.html): Market data, neighborhood overview, FAQs for Rialto, San Bernardino County
+- [Riverside](https://soldwithpaul.com/areas/riverside.html): Market data, neighborhood overview, FAQs for Riverside, Riverside County
+- [San Bernardino](https://soldwithpaul.com/areas/san-bernardino.html): Market data, neighborhood overview, FAQs for San Bernardino, San Bernardino County
+- [San Clemente](https://soldwithpaul.com/areas/san-clemente.html): Market data, neighborhood overview, FAQs for San Clemente, Orange County
+- [San Gabriel](https://soldwithpaul.com/areas/san-gabriel.html): Market data, neighborhood overview, FAQs for San Gabriel, Los Angeles County
+- [San Jacinto](https://soldwithpaul.com/areas/san-jacinto.html): Market data, neighborhood overview, FAQs for San Jacinto, Riverside County
+- [San Juan Capistrano](https://soldwithpaul.com/areas/san-juan-capistrano.html): Market data, neighborhood overview, FAQs for San Juan Capistrano, Orange County
+- [Santa Ana](https://soldwithpaul.com/areas/santa-ana.html): Market data, neighborhood overview, FAQs for Santa Ana, Orange County
+- [Santa Monica](https://soldwithpaul.com/areas/santa-monica.html): Market data, neighborhood overview, FAQs for Santa Monica, Los Angeles County
+- [Seal Beach](https://soldwithpaul.com/areas/seal-beach.html): Market data, neighborhood overview, FAQs for Seal Beach, Orange County
+- [Temecula](https://soldwithpaul.com/areas/temecula.html): Market data, neighborhood overview, FAQs for Temecula, Riverside County
+- [Torrance](https://soldwithpaul.com/areas/torrance.html): Market data, neighborhood overview, FAQs for Torrance, Los Angeles County
+- [Tustin](https://soldwithpaul.com/areas/tustin.html): Market data, neighborhood overview, FAQs for Tustin, Orange County
 - [Upland](https://soldwithpaul.com/areas/upland.html): Market data, neighborhood overview, FAQs for Upland, San Bernardino County
+- [Victorville](https://soldwithpaul.com/areas/victorville.html): Market data, neighborhood overview, FAQs for Victorville, San Bernardino County
+- [West Covina](https://soldwithpaul.com/areas/west-covina.html): Market data, neighborhood overview, FAQs for West Covina, Los Angeles County
+- [West Hollywood](https://soldwithpaul.com/areas/west-hollywood.html): Market data, neighborhood overview, FAQs for West Hollywood, Los Angeles County
+- [Westlake Village](https://soldwithpaul.com/areas/westlake-village.html): Market data, neighborhood overview, FAQs for Westlake Village, Los Angeles County
+- [Westminster](https://soldwithpaul.com/areas/westminster.html): Market data, neighborhood overview, FAQs for Westminster, Orange County
+- [Whittier](https://soldwithpaul.com/areas/whittier.html): Market data, neighborhood overview, FAQs for Whittier, Los Angeles County
+- [Wildomar](https://soldwithpaul.com/areas/wildomar.html): Market data, neighborhood overview, FAQs for Wildomar, Riverside County
+- [Yorba Linda](https://soldwithpaul.com/areas/yorba-linda.html): Market data, neighborhood overview, FAQs for Yorba Linda, Orange County
+- [Yucaipa](https://soldwithpaul.com/areas/yucaipa.html): Market data, neighborhood overview, FAQs for Yucaipa, San Bernardino County
+- [Yucca Valley](https://soldwithpaul.com/areas/yucca-valley.html): Market data, neighborhood overview, FAQs for Yucca Valley, San Bernardino County
 
 ## Full Content
 
