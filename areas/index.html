@@ -4,24 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Areas We Serve | Paul Fernandez REALTOR — Sold With Paul</title>
-  <meta name="description" content="Paul Fernandez serves 26 cities across Los Angeles, Orange, Riverside, and San Bernardino counties. 200+ transactions, 103% list-to-sold ratio. Find your city for current market data.">
+  <meta name="description" content="Paul Fernandez serves 110 cities across Los Angeles, Orange, Riverside, and San Bernardino counties. Find current market data and expert real estate representation in your city.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://soldwithpaul.com/areas/">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
   <meta property="og:title" content="Areas We Serve | Sold With Paul">
-  <meta property="og:description" content="Paul Fernandez serves 26 cities across Southern California. Current market data, neighborhood insights, and free home valuations.">
+  <meta property="og:description" content="Paul Fernandez serves 110 cities across LA, Orange, Riverside, and San Bernardino counties.">
   <meta property="og:url" content="https://soldwithpaul.com/areas/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://soldwithpaul.com/assets/paul-headshot.jpg">
   <meta property="og:site_name" content="Sold With Paul">
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@soldwithpaul">
   <meta name="twitter:title" content="Areas We Serve | Sold With Paul">
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RD4PN9FCS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -29,7 +26,6 @@
     gtag('js', new Date());
     gtag('config', 'G-6RD4PN9FCS');
   </script>
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,7 +46,6 @@
     ]
   }
   </script>
-
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap">
   <style>
@@ -65,129 +60,108 @@
       --card-bg: rgba(255,255,255,0.05);
       --card-border: rgba(212, 175, 55, 0.3);
     }
-
-    .areas-page {
+    .hub-page {
       background: var(--bg-deep);
       color: var(--white);
       font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
       line-height: 1.7;
       margin: 0;
     }
-
-    .areas-hero {
+    .hub-breadcrumb {
+      margin-top: 90px;
+      padding: 1rem 2rem;
+      font-size: 0.85rem;
+      color: var(--gray-dim);
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hub-breadcrumb a { color: var(--gold); text-decoration: none; }
+    .hub-breadcrumb a:hover { text-decoration: underline; }
+    .hub-breadcrumb .sep { margin: 0 0.5rem; opacity: 0.5; }
+    .hub-hero {
       text-align: center;
-      padding: 4rem 2rem 2rem;
-      max-width: 800px;
+      padding: 4rem 2rem 3rem;
+      max-width: 900px;
       margin: 0 auto;
     }
-    .areas-hero h1 {
+    .hub-hero h1 {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: clamp(2rem, 5vw, 3rem);
       font-weight: 700;
       line-height: 1.2;
       margin: 0 0 1rem;
     }
-    .areas-hero h1 span {
-      color: var(--gold);
-    }
-    .areas-hero p {
+    .hub-hero h1 span { color: var(--gold); }
+    .hub-hero p {
+      font-size: 1.15rem;
       color: var(--gray);
-      font-size: 1.1rem;
       font-weight: 300;
     }
-
-    .areas-content {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 2rem 2rem 4rem;
-    }
-
     .county-group {
-      margin-bottom: 3rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
     }
     .county-title {
       font-family: 'Playfair Display', Georgia, serif;
-      font-size: 1.5rem;
-      font-weight: 700;
+      font-size: 1.6rem;
       color: var(--gold);
       margin-bottom: 1.25rem;
       padding-bottom: 0.5rem;
       border-bottom: 2px solid var(--gold-dim);
     }
-
     .area-cards {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 1rem;
+      margin-bottom: 2rem;
     }
-
     .area-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 8px;
-      padding: 1.5rem;
+      padding: 1.25rem 1.5rem;
       text-decoration: none;
       color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       transition: border-color 0.25s, box-shadow 0.25s, transform 0.2s;
-      position: relative;
     }
     .area-card:hover {
       border-color: var(--gold);
-      box-shadow: 0 0 24px var(--gold-glow);
-      transform: translateY(-3px);
+      box-shadow: 0 0 20px var(--gold-glow);
+      transform: translateY(-2px);
     }
     .area-card h3 {
       font-family: 'Playfair Display', Georgia, serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      margin: 0 0 0.75rem;
-    }
-    .area-card-stats {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: auto;
+      font-size: 1.15rem;
+      margin: 0;
     }
     .area-price {
-      color: var(--gold);
-      font-family: 'Playfair Display', Georgia, serif;
-      font-size: 1.15rem;
-      font-weight: 700;
-    }
-    .area-type {
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--gray-dim);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+      margin: 0.25rem 0 0;
     }
-    .area-card-arrow {
-      position: absolute;
-      top: 1.5rem;
-      right: 1.5rem;
+    .area-arrow {
       color: var(--gold);
-      font-size: 1.2rem;
-      opacity: 0;
-      transition: opacity 0.2s;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      margin-left: 1rem;
     }
-    .area-card:hover .area-card-arrow {
-      opacity: 1;
-    }
-
-    .areas-cta {
+    .hub-cta {
       text-align: center;
       padding: 3rem 2rem;
-      max-width: 600px;
+      max-width: 700px;
       margin: 0 auto;
     }
-    .areas-cta p {
+    .hub-cta p {
       color: var(--gray);
-      font-size: 1.05rem;
+      font-size: 1.1rem;
       margin-bottom: 1.5rem;
     }
-    .areas-cta .cta-btn {
+    .hub-cta .cta-btn {
       display: inline-block;
       background: var(--gold);
       color: var(--bg-deep);
@@ -196,24 +170,19 @@
       padding: 0.9rem 2.4rem;
       border-radius: 4px;
       text-decoration: none;
-      letter-spacing: 0.03em;
       transition: transform 0.2s, box-shadow 0.2s;
     }
-    .areas-cta .cta-btn:hover {
+    .hub-cta .cta-btn:hover {
       transform: translateY(-2px);
       box-shadow: 0 6px 24px rgba(212, 175, 55, 0.35);
     }
-
     @media (max-width: 768px) {
-      .areas-hero { padding: 2.5rem 1.25rem 1.5rem; }
-      .areas-content { padding: 1.5rem 1.25rem 3rem; }
       .area-cards { grid-template-columns: 1fr; }
     }
   </style>
 </head>
-<body class="areas-page">
-
-  <nav class="navbar" id="navbar">
+<body class="hub-page">
+  <nav class="navbar">
     <div class="container">
       <a href="../index.html" class="nav-logo">SOLD WITH PAUL</a>
       <div class="nav-links">
@@ -224,9 +193,7 @@
         <a href="../contact.html">Contact</a>
       </div>
       <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
@@ -238,256 +205,594 @@
     <a href="../blog.html">Blog</a>
     <a href="../contact.html">Contact</a>
   </div>
-
-  <section class="areas-hero">
-    <h1>Areas <span>We Serve</span></h1>
-    <p>Paul Fernandez serves 26 cities across Los Angeles, Orange, Riverside, and San Bernardino counties. Select your city for current market data, neighborhood insights, and a free home valuation.</p>
-  </section>
-
-  <div class="areas-content">
-
-      <div class="county-group">
-        <h2 class="county-title">Los Angeles County</h2>
-        <div class="area-cards">
-
-          <a href="cerritos.html" class="area-card">
-            <h3>Cerritos</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$1,157,263</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="claremont.html" class="area-card">
-            <h3>Claremont</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$1,107,517</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="downey.html" class="area-card">
-            <h3>Downey</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$998,425</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="la-mirada.html" class="area-card">
-            <h3>La Mirada</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$926,554</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="long-beach.html" class="area-card">
-            <h3>Long Beach</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$989,670</span>
-              <span class="area-type">Balanced Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="montebello.html" class="area-card">
-            <h3>Montebello</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$902,500</span>
-              <span class="area-type">Balanced Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="norwalk.html" class="area-card">
-            <h3>Norwalk</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$740,369</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="pasadena.html" class="area-card">
-            <h3>Pasadena</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$1,594,379</span>
-              <span class="area-type">Balanced Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="pico-rivera.html" class="area-card">
-            <h3>Pico Rivera</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$699,462</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="whittier.html" class="area-card">
-            <h3>Whittier</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$859,776</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="county-group">
-        <h2 class="county-title">Orange County</h2>
-        <div class="area-cards">
-
-          <a href="anaheim.html" class="area-card">
-            <h3>Anaheim</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$946,702</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="brea.html" class="area-card">
-            <h3>Brea</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$1,331,329</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="buena-park.html" class="area-card">
-            <h3>Buena Park</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$991,926</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="fullerton.html" class="area-card">
-            <h3>Fullerton</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$1,266,569</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="la-habra.html" class="area-card">
-            <h3>La Habra</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$888,141</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="yorba-linda.html" class="area-card">
-            <h3>Yorba Linda</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$1,473,639</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="county-group">
-        <h2 class="county-title">Riverside County</h2>
-        <div class="area-cards">
-
-          <a href="corona.html" class="area-card">
-            <h3>Corona</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$775,940</span>
-              <span class="area-type">Balanced Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="jurupa-valley.html" class="area-card">
-            <h3>Jurupa Valley</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$716,141</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="moreno-valley.html" class="area-card">
-            <h3>Moreno Valley</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$568,178</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="riverside.html" class="area-card">
-            <h3>Riverside</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$703,860</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="temecula.html" class="area-card">
-            <h3>Temecula</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$948,319</span>
-              <span class="area-type">Balanced Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="county-group">
-        <h2 class="county-title">San Bernardino County</h2>
-        <div class="area-cards">
-
-          <a href="chino-hills.html" class="area-card">
-            <h3>Chino Hills</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$1,019,738</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="fontana.html" class="area-card">
-            <h3>Fontana</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$662,613</span>
-              <span class="area-type">Balanced Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="ontario.html" class="area-card">
-            <h3>Ontario</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$646,167</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="rancho-cucamonga.html" class="area-card">
-            <h3>Rancho Cucamonga</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$875,525</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-          <a href="upland.html" class="area-card">
-            <h3>Upland</h3>
-            <div class="area-card-stats">
-              <span class="area-price">$924,267</span>
-              <span class="area-type">Seller's Market</span>
-            </div>
-            <span class="area-card-arrow">→</span>
-          </a>
-        </div>
-      </div>
+  <div class="hub-breadcrumb">
+    <a href="../index.html">Home</a>
+    <span class="sep">›</span>
+    <span>Areas We Serve</span>
   </div>
-
-  <section class="areas-cta">
-    <p>Don't see your city? Paul serves all of Southern California. Contact us for a free market analysis anywhere in LA, Orange, Riverside, or San Bernardino County.</p>
-    <a href="../contact.html" class="cta-btn">Contact Paul</a>
+  <section class="hub-hero">
+    <h1>Areas <span>We Serve</span></h1>
+    <p>Paul Fernandez provides expert real estate representation across 110 cities in Southern California. Select a city below for current market data, neighborhood insights, and a free home valuation.</p>
   </section>
 
+    <div class="county-group">
+      <h2 class="county-title">Los Angeles County</h2>
+      <div class="area-cards">
+        <a href="arcadia.html" class="area-card">
+          <h3>Arcadia</h3>
+          <p class="area-price">Median: $1,746,370</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="azusa.html" class="area-card">
+          <h3>Azusa</h3>
+          <p class="area-price">Median: $768,654</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="beverly-hills.html" class="area-card">
+          <h3>Beverly Hills</h3>
+          <p class="area-price">Median: $9,085,379</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="burbank.html" class="area-card">
+          <h3>Burbank</h3>
+          <p class="area-price">Median: $1,239,885</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="calabasas.html" class="area-card">
+          <h3>Calabasas</h3>
+          <p class="area-price">Median: $2,367,783</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="carson.html" class="area-card">
+          <h3>Carson</h3>
+          <p class="area-price">Median: $809,700</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="cerritos.html" class="area-card">
+          <h3>Cerritos</h3>
+          <p class="area-price">Median: $1,157,263</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="claremont.html" class="area-card">
+          <h3>Claremont</h3>
+          <p class="area-price">Median: $1,107,517</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="compton.html" class="area-card">
+          <h3>Compton</h3>
+          <p class="area-price">Median: $590,608</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="covina.html" class="area-card">
+          <h3>Covina</h3>
+          <p class="area-price">Median: $817,899</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="culver-city.html" class="area-card">
+          <h3>Culver City</h3>
+          <p class="area-price">Median: $1,286,059</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="diamond-bar.html" class="area-card">
+          <h3>Diamond Bar</h3>
+          <p class="area-price">Median: $1,128,000</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="downey.html" class="area-card">
+          <h3>Downey</h3>
+          <p class="area-price">Median: $998,425</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="el-monte.html" class="area-card">
+          <h3>El Monte</h3>
+          <p class="area-price">Median: $759,103</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="gardena.html" class="area-card">
+          <h3>Gardena</h3>
+          <p class="area-price">Median: $754,894</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="glendale.html" class="area-card">
+          <h3>Glendale</h3>
+          <p class="area-price">Median: $1,173,894</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="glendora.html" class="area-card">
+          <h3>Glendora</h3>
+          <p class="area-price">Median: $921,661</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="la-mirada.html" class="area-card">
+          <h3>La Mirada</h3>
+          <p class="area-price">Median: $926,554</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="lakewood.html" class="area-card">
+          <h3>Lakewood</h3>
+          <p class="area-price">Median: $885,282</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="lancaster.html" class="area-card">
+          <h3>Lancaster</h3>
+          <p class="area-price">Median: $470,325</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="long-beach.html" class="area-card">
+          <h3>Long Beach</h3>
+          <p class="area-price">Median: $989,670</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="los-angeles.html" class="area-card">
+          <h3>Los Angeles</h3>
+          <p class="area-price">Median: $1,660,131</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="manhattan-beach.html" class="area-card">
+          <h3>Manhattan Beach</h3>
+          <p class="area-price">Median: $4,401,761</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="monrovia.html" class="area-card">
+          <h3>Monrovia</h3>
+          <p class="area-price">Median: $1,027,589</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="montebello.html" class="area-card">
+          <h3>Montebello</h3>
+          <p class="area-price">Median: $902,500</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="monterey-park.html" class="area-card">
+          <h3>Monterey Park</h3>
+          <p class="area-price">Median: $914,004</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="norwalk.html" class="area-card">
+          <h3>Norwalk</h3>
+          <p class="area-price">Median: $740,369</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="palmdale.html" class="area-card">
+          <h3>Palmdale</h3>
+          <p class="area-price">Median: $549,896</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="pasadena.html" class="area-card">
+          <h3>Pasadena</h3>
+          <p class="area-price">Median: $1,594,379</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="pico-rivera.html" class="area-card">
+          <h3>Pico Rivera</h3>
+          <p class="area-price">Median: $699,462</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="pomona.html" class="area-card">
+          <h3>Pomona</h3>
+          <p class="area-price">Median: $665,563</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="rancho-palos-verdes.html" class="area-card">
+          <h3>Rancho Palos Verdes</h3>
+          <p class="area-price">Median: $1,639,036</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="redondo-beach.html" class="area-card">
+          <h3>Redondo Beach</h3>
+          <p class="area-price">Median: $2,032,313</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="san-gabriel.html" class="area-card">
+          <h3>San Gabriel</h3>
+          <p class="area-price">Median: $1,275,712</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="santa-monica.html" class="area-card">
+          <h3>Santa Monica</h3>
+          <p class="area-price">Median: $2,033,968</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="torrance.html" class="area-card">
+          <h3>Torrance</h3>
+          <p class="area-price">Median: $1,054,422</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="west-covina.html" class="area-card">
+          <h3>West Covina</h3>
+          <p class="area-price">Median: $843,264</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="west-hollywood.html" class="area-card">
+          <h3>West Hollywood</h3>
+          <p class="area-price">Median: $1,358,591</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="westlake-village.html" class="area-card">
+          <h3>Westlake Village</h3>
+          <p class="area-price">Median: $1,965,480</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="whittier.html" class="area-card">
+          <h3>Whittier</h3>
+          <p class="area-price">Median: $859,776</p>
+          <span class="area-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="county-group">
+      <h2 class="county-title">Orange County</h2>
+      <div class="area-cards">
+        <a href="aliso-viejo.html" class="area-card">
+          <h3>Aliso Viejo</h3>
+          <p class="area-price">Median: $1,065,879</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="anaheim.html" class="area-card">
+          <h3>Anaheim</h3>
+          <p class="area-price">Median: $946,702</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="brea.html" class="area-card">
+          <h3>Brea</h3>
+          <p class="area-price">Median: $1,331,329</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="buena-park.html" class="area-card">
+          <h3>Buena Park</h3>
+          <p class="area-price">Median: $991,926</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="costa-mesa.html" class="area-card">
+          <h3>Costa Mesa</h3>
+          <p class="area-price">Median: $1,625,954</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="cypress.html" class="area-card">
+          <h3>Cypress</h3>
+          <p class="area-price">Median: $1,152,250</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="dana-point.html" class="area-card">
+          <h3>Dana Point</h3>
+          <p class="area-price">Median: $3,159,755</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="fullerton.html" class="area-card">
+          <h3>Fullerton</h3>
+          <p class="area-price">Median: $1,266,569</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="garden-grove.html" class="area-card">
+          <h3>Garden Grove</h3>
+          <p class="area-price">Median: $999,784</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="huntington-beach.html" class="area-card">
+          <h3>Huntington Beach</h3>
+          <p class="area-price">Median: $1,441,089</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="irvine.html" class="area-card">
+          <h3>Irvine</h3>
+          <p class="area-price">Median: $1,666,197</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="la-habra.html" class="area-card">
+          <h3>La Habra</h3>
+          <p class="area-price">Median: $888,141</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="laguna-beach.html" class="area-card">
+          <h3>Laguna Beach</h3>
+          <p class="area-price">Median: $3,849,448</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="laguna-hills.html" class="area-card">
+          <h3>Laguna Hills</h3>
+          <p class="area-price">Median: $1,412,275</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="laguna-niguel.html" class="area-card">
+          <h3>Laguna Niguel</h3>
+          <p class="area-price">Median: $1,675,584</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="laguna-woods.html" class="area-card">
+          <h3>Laguna Woods</h3>
+          <p class="area-price">Median: $722,509</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="lake-forest.html" class="area-card">
+          <h3>Lake Forest</h3>
+          <p class="area-price">Median: $1,142,292</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="mission-viejo.html" class="area-card">
+          <h3>Mission Viejo</h3>
+          <p class="area-price">Median: $1,183,505</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="newport-beach.html" class="area-card">
+          <h3>Newport Beach</h3>
+          <p class="area-price">Median: $4,319,843</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="orange.html" class="area-card">
+          <h3>Orange</h3>
+          <p class="area-price">Median: $1,205,254</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="placentia.html" class="area-card">
+          <h3>Placentia</h3>
+          <p class="area-price">Median: $1,239,600</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="rancho-santa-margarita.html" class="area-card">
+          <h3>Rancho Santa Margarita</h3>
+          <p class="area-price">Median: $1,044,922</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="san-clemente.html" class="area-card">
+          <h3>San Clemente</h3>
+          <p class="area-price">Median: $1,864,041</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="san-juan-capistrano.html" class="area-card">
+          <h3>San Juan Capistrano</h3>
+          <p class="area-price">Median: $1,607,696</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="santa-ana.html" class="area-card">
+          <h3>Santa Ana</h3>
+          <p class="area-price">Median: $872,306</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="seal-beach.html" class="area-card">
+          <h3>Seal Beach</h3>
+          <p class="area-price">Median: $592,762</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="tustin.html" class="area-card">
+          <h3>Tustin</h3>
+          <p class="area-price">Median: $1,221,101</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="westminster.html" class="area-card">
+          <h3>Westminster</h3>
+          <p class="area-price">Median: $1,116,849</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="yorba-linda.html" class="area-card">
+          <h3>Yorba Linda</h3>
+          <p class="area-price">Median: $1,473,639</p>
+          <span class="area-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="county-group">
+      <h2 class="county-title">Riverside County</h2>
+      <div class="area-cards">
+        <a href="banning.html" class="area-card">
+          <h3>Banning</h3>
+          <p class="area-price">Median: $426,423</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="beaumont.html" class="area-card">
+          <h3>Beaumont</h3>
+          <p class="area-price">Median: $536,731</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="cathedral-city.html" class="area-card">
+          <h3>Cathedral City</h3>
+          <p class="area-price">Median: $507,701</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="corona.html" class="area-card">
+          <h3>Corona</h3>
+          <p class="area-price">Median: $775,940</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="desert-hot-springs.html" class="area-card">
+          <h3>Desert Hot Springs</h3>
+          <p class="area-price">Median: $383,945</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="eastvale.html" class="area-card">
+          <h3>Eastvale</h3>
+          <p class="area-price">Median: $891,497</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="hemet.html" class="area-card">
+          <h3>Hemet</h3>
+          <p class="area-price">Median: $403,694</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="indian-wells.html" class="area-card">
+          <h3>Indian Wells</h3>
+          <p class="area-price">Median: $1,934,955</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="indio.html" class="area-card">
+          <h3>Indio</h3>
+          <p class="area-price">Median: $557,920</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="jurupa-valley.html" class="area-card">
+          <h3>Jurupa Valley</h3>
+          <p class="area-price">Median: $716,141</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="la-quinta.html" class="area-card">
+          <h3>La Quinta</h3>
+          <p class="area-price">Median: $1,549,254</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="lake-elsinore.html" class="area-card">
+          <h3>Lake Elsinore</h3>
+          <p class="area-price">Median: $585,575</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="menifee.html" class="area-card">
+          <h3>Menifee</h3>
+          <p class="area-price">Median: $550,334</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="moreno-valley.html" class="area-card">
+          <h3>Moreno Valley</h3>
+          <p class="area-price">Median: $568,178</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="murrieta.html" class="area-card">
+          <h3>Murrieta</h3>
+          <p class="area-price">Median: $774,186</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="palm-desert.html" class="area-card">
+          <h3>Palm Desert</h3>
+          <p class="area-price">Median: $728,616</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="palm-springs.html" class="area-card">
+          <h3>Palm Springs</h3>
+          <p class="area-price">Median: $842,035</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="perris.html" class="area-card">
+          <h3>Perris</h3>
+          <p class="area-price">Median: $612,152</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="rancho-mirage.html" class="area-card">
+          <h3>Rancho Mirage</h3>
+          <p class="area-price">Median: $1,012,394</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="riverside.html" class="area-card">
+          <h3>Riverside</h3>
+          <p class="area-price">Median: $703,860</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="san-jacinto.html" class="area-card">
+          <h3>San Jacinto</h3>
+          <p class="area-price">Median: $474,785</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="temecula.html" class="area-card">
+          <h3>Temecula</h3>
+          <p class="area-price">Median: $948,319</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="wildomar.html" class="area-card">
+          <h3>Wildomar</h3>
+          <p class="area-price">Median: $676,055</p>
+          <span class="area-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="county-group">
+      <h2 class="county-title">San Bernardino County</h2>
+      <div class="area-cards">
+        <a href="adelanto.html" class="area-card">
+          <h3>Adelanto</h3>
+          <p class="area-price">Median: $371,727</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="apple-valley.html" class="area-card">
+          <h3>Apple Valley</h3>
+          <p class="area-price">Median: $448,999</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="barstow.html" class="area-card">
+          <h3>Barstow</h3>
+          <p class="area-price">Median: $241,717</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="chino.html" class="area-card">
+          <h3>Chino</h3>
+          <p class="area-price">Median: $766,217</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="chino-hills.html" class="area-card">
+          <h3>Chino Hills</h3>
+          <p class="area-price">Median: $1,019,738</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="colton.html" class="area-card">
+          <h3>Colton</h3>
+          <p class="area-price">Median: $515,745</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="fontana.html" class="area-card">
+          <h3>Fontana</h3>
+          <p class="area-price">Median: $662,613</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="hesperia.html" class="area-card">
+          <h3>Hesperia</h3>
+          <p class="area-price">Median: $493,170</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="highland.html" class="area-card">
+          <h3>Highland</h3>
+          <p class="area-price">Median: $616,285</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="ontario.html" class="area-card">
+          <h3>Ontario</h3>
+          <p class="area-price">Median: $646,167</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="rancho-cucamonga.html" class="area-card">
+          <h3>Rancho Cucamonga</h3>
+          <p class="area-price">Median: $875,525</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="redlands.html" class="area-card">
+          <h3>Redlands</h3>
+          <p class="area-price">Median: $754,403</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="rialto.html" class="area-card">
+          <h3>Rialto</h3>
+          <p class="area-price">Median: $569,964</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="san-bernardino.html" class="area-card">
+          <h3>San Bernardino</h3>
+          <p class="area-price">Median: $520,326</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="upland.html" class="area-card">
+          <h3>Upland</h3>
+          <p class="area-price">Median: $924,267</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="victorville.html" class="area-card">
+          <h3>Victorville</h3>
+          <p class="area-price">Median: $426,235</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="yucaipa.html" class="area-card">
+          <h3>Yucaipa</h3>
+          <p class="area-price">Median: $595,224</p>
+          <span class="area-arrow">→</span>
+        </a>
+        <a href="yucca-valley.html" class="area-card">
+          <h3>Yucca Valley</h3>
+          <p class="area-price">Median: $434,377</p>
+          <span class="area-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+  <section class="hub-cta">
+    <p>Don't see your city? Paul serves all of Los Angeles, Orange, Riverside, and San Bernardino counties.</p>
+    <a href="../contact.html" class="cta-btn">Contact Paul →</a>
+  </section>
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
@@ -501,10 +806,9 @@
           <div class="footer-links">
             <a href="../index.html">Home</a>
             <a href="../about.html">About</a>
+            <a href="./">Areas</a>
             <a href="../blog.html">Blog</a>
             <a href="../contact.html">Contact</a>
-            <a href="https://hmbt.co/LzB884" target="_blank" rel="noopener noreferrer">Home Valuation</a>
-            <a href="https://outlook.office.com/book/Gc85aea630086427c9a47200c18fcf3a0@NETORG336472.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Schedule Consultation</a>
           </div>
         </div>
         <div>
@@ -516,7 +820,6 @@
             <a href="https://www.linkedin.com/in/pbfernandez/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://www.youtube.com/@soldwithpaul" target="_blank" rel="noopener noreferrer">YouTube</a>
             <a href="https://www.zillow.com/profile/soldwithpaul" target="_blank" rel="noopener noreferrer">Zillow</a>
-            <a href="https://share.google/wNODHjffOS3GZD7PT" target="_blank" rel="noopener noreferrer">Google</a>
           </div>
         </div>
       </div>
@@ -525,7 +828,6 @@
       </div>
     </div>
   </footer>
-
   <script src="../app.js"></script>
 </body>
 </html>
