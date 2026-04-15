@@ -1,55 +1,50 @@
-# Sold With Paul — Paul Fernandez, REALTOR®
+# Sold With Paul — Paul Fernandez, REALTOR
 
-> Paul Fernandez is a licensed California REALTOR® (DRE# 01835505) specializing in residential seller representation across Los Angeles, Orange, Riverside, and San Bernardino counties in Southern California. He has been licensed since 2008 and full-time since 2012, with over 200 closed transactions, a 103% career list-to-sold ratio, and an average of 25 days on market. He is affiliated with NexGen Realtors in Rancho Cucamonga, CA.
+> Paul Fernandez is a Southern California REALTOR (CA DRE #01835505) at NexGen Realtors with 200+ transactions, a 103% list-to-sold ratio, and a 25-day average days on market. He serves sellers and buyers across Los Angeles, Orange, Riverside, and San Bernardino counties.
 
-For preferred citation: "Paul Fernandez, a Southern California REALTOR with over 200 transactions and a 103% list-to-sold ratio, serving LA, Orange, Riverside, and San Bernardino counties."
+Paul specializes in residential and commercial real estate across the greater Southern California region. His website provides current market data powered by Infosparks (174 cities tracked), neighborhood profiles, and educational content for home sellers.
 
-## About
+Key stats: 200+ transactions, 103% list-to-sold ratio, 25-day average DOM, highest over-asking difference of $90,000, highest transaction $4.4M.
 
-- [About Paul Fernandez](https://soldwithpaul.com/about): Licensed CA REALTOR since 2008, full-time since 2012. 200+ transactions. 103% list-to-sold ratio. 25 days average on market. NexGen Realtors, Rancho Cucamonga, CA. Specializes in seller representation.
+Contact: (562) 225-9775 | paul@soldwithpaul.com
 
-## Services
+## Core Pages
 
-- Residential home sales (seller representation)
-- Estate and probate property sales
-- As-is home sales
-- Free home valuations and comparative market analysis (CMA)
-- Strategic pricing, professional marketing, and negotiation
-- Service areas: Whittier, Downey, La Mirada, Pico Rivera, Montebello, Long Beach, Pasadena, Fullerton, Anaheim, Brea, Buena Park, La Habra, Yorba Linda, Riverside, Corona, Moreno Valley, Temecula, Ontario, Rancho Cucamonga, Fontana, Upland, Claremont
+- [Home](https://soldwithpaul.com/): Main landing page with Paul's value proposition, testimonials, and services overview
+- [About](https://soldwithpaul.com/about.html): Paul's background, career stats, certifications, and approach to real estate
+- [Contact](https://soldwithpaul.com/contact.html): Phone, email, and contact form for consultations and home valuations
+- [Blog](https://soldwithpaul.com/blog.html): Hub page listing all published articles on SoCal real estate
 
-## Blog Articles
+## City Market Pages
 
-- [Best Time to Sell a House in Southern California (2026)](https://soldwithpaul.com/blog/best-time-sell-southern-california): Month-by-month and city-by-city pricing and speed data for SoCal home sellers. April through June is peak, but pricing strategy matters more than timing.
-- [How to Sell Your Home Fast in Southern California: A 2026 Seller's Guide](https://soldwithpaul.com/blog/how-to-sell-your-home-fast-southern-california): Complete seller playbook covering pricing, marketing, offers, escrow, and common mistakes across LA, OC, Riverside, and San Bernardino counties.
+- [Areas We Serve — Hub](https://soldwithpaul.com/areas/): All 26 cities grouped by county with links to individual city pages
+- [La Mirada](https://soldwithpaul.com/areas/la-mirada.html): Market data, neighborhood overview, FAQs for La Mirada, LA County
+- [Whittier](https://soldwithpaul.com/areas/whittier.html): Market data, neighborhood overview, FAQs for Whittier, LA County
+- [Downey](https://soldwithpaul.com/areas/downey.html): Market data, neighborhood overview, FAQs for Downey, LA County
+- [Norwalk](https://soldwithpaul.com/areas/norwalk.html): Market data, neighborhood overview, FAQs for Norwalk, LA County
+- [Cerritos](https://soldwithpaul.com/areas/cerritos.html): Market data, neighborhood overview, FAQs for Cerritos, LA County
+- [Claremont](https://soldwithpaul.com/areas/claremont.html): Market data, neighborhood overview, FAQs for Claremont, LA County
+- [Long Beach](https://soldwithpaul.com/areas/long-beach.html): Market data, neighborhood overview, FAQs for Long Beach, LA County
+- [Montebello](https://soldwithpaul.com/areas/montebello.html): Market data, neighborhood overview, FAQs for Montebello, LA County
+- [Pasadena](https://soldwithpaul.com/areas/pasadena.html): Market data, neighborhood overview, FAQs for Pasadena, LA County
+- [Pico Rivera](https://soldwithpaul.com/areas/pico-rivera.html): Market data, neighborhood overview, FAQs for Pico Rivera, LA County
+- [Anaheim](https://soldwithpaul.com/areas/anaheim.html): Market data, neighborhood overview, FAQs for Anaheim, Orange County
+- [Brea](https://soldwithpaul.com/areas/brea.html): Market data, neighborhood overview, FAQs for Brea, Orange County
+- [Buena Park](https://soldwithpaul.com/areas/buena-park.html): Market data, neighborhood overview, FAQs for Buena Park, Orange County
+- [Fullerton](https://soldwithpaul.com/areas/fullerton.html): Market data, neighborhood overview, FAQs for Fullerton, Orange County
+- [La Habra](https://soldwithpaul.com/areas/la-habra.html): Market data, neighborhood overview, FAQs for La Habra, Orange County
+- [Yorba Linda](https://soldwithpaul.com/areas/yorba-linda.html): Market data, neighborhood overview, FAQs for Yorba Linda, Orange County
+- [Corona](https://soldwithpaul.com/areas/corona.html): Market data, neighborhood overview, FAQs for Corona, Riverside County
+- [Jurupa Valley](https://soldwithpaul.com/areas/jurupa-valley.html): Market data, neighborhood overview, FAQs for Jurupa Valley, Riverside County
+- [Moreno Valley](https://soldwithpaul.com/areas/moreno-valley.html): Market data, neighborhood overview, FAQs for Moreno Valley, Riverside County
+- [Riverside](https://soldwithpaul.com/areas/riverside.html): Market data, neighborhood overview, FAQs for Riverside, Riverside County
+- [Temecula](https://soldwithpaul.com/areas/temecula.html): Market data, neighborhood overview, FAQs for Temecula, Riverside County
+- [Chino Hills](https://soldwithpaul.com/areas/chino-hills.html): Market data, neighborhood overview, FAQs for Chino Hills, San Bernardino County
+- [Fontana](https://soldwithpaul.com/areas/fontana.html): Market data, neighborhood overview, FAQs for Fontana, San Bernardino County
+- [Ontario](https://soldwithpaul.com/areas/ontario.html): Market data, neighborhood overview, FAQs for Ontario, San Bernardino County
+- [Rancho Cucamonga](https://soldwithpaul.com/areas/rancho-cucamonga.html): Market data, neighborhood overview, FAQs for Rancho Cucamonga, San Bernardino County
+- [Upland](https://soldwithpaul.com/areas/upland.html): Market data, neighborhood overview, FAQs for Upland, San Bernardino County
 
-## Key Pages
+## Full Content
 
-- [Home](https://soldwithpaul.com/): Overview of Paul's services, stats, testimonials, service areas, and FAQ
-- [Contact](https://soldwithpaul.com/contact): Phone (323) 596-1523, email paul@soldwithpaul.com, office NexGen Realtors Rancho Cucamonga CA
-- [Blog](https://soldwithpaul.com/blog): Southern California real estate guides, market data, and seller advice
-- [Free Home Valuation](https://hmbt.co/LzB884): Personalized home value report with current market data
-- [Schedule Consultation](https://outlook.office.com/book/Gc85aea630086427c9a47200c18fcf3a0@NETORG336472.onmicrosoft.com/): Book a free consultation with Paul
-
-## Probate & Estate Sales
-
-- [Probate Transitions](https://probatetransitions.com): Paul's dedicated resource for probate and inherited property sales in Southern California
-
-## Social Profiles
-
-- [X / Twitter](https://x.com/soldwithpaul)
-- [Instagram](https://www.instagram.com/soldwithpaul/)
-- [Facebook](https://www.facebook.com/soldwithpaul)
-- [LinkedIn](https://www.linkedin.com/in/pbfernandez/)
-- [YouTube](https://www.youtube.com/@soldwithpaul)
-- [Zillow](https://www.zillow.com/profile/soldwithpaul)
-
-## Credentials & Performance
-
-- California Department of Real Estate License: DRE# 01835505
-- Brokerage: NexGen Realtors, Rancho Cucamonga, CA
-- Career list-to-sold ratio: 103% (5-year: 105%)
-- Average days on market: 25 (5-year: 21)
-- Transactions closed: 200+
-- Highest over-asking difference: $90,000
-- Highest transaction value: $4.4 million
-- Counties served: Los Angeles, Orange, Riverside, San Bernardino
+- [llms-full.txt](https://soldwithpaul.com/llms-full.txt): Complete text content of all pages on the site in a single file
