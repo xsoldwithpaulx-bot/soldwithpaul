@@ -1600,3 +1600,69 @@ p {
   font-weight: 600;
   color: var(--gold);
 }
+
+/* ===== FEATURED CITIES GRID (Homepage) ===== */
+.featured-cities-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.featured-county-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.featured-county-label {
+  color: var(--gold);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(212, 175, 55, 0.25);
+}
+.featured-city-card {
+  display: flex;
+  align-items: center;
+  background: var(--bg-card);
+  border-left: 3px solid var(--gold);
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  color: var(--text-white);
+  transition: all 0.3s ease;
+}
+.featured-city-card:hover {
+  background: #161825;
+  transform: translateX(4px);
+}
+.featured-city-name {
+  font-weight: 600;
+  font-size: 1rem;
+  flex: 1;
+}
+.featured-city-price {
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-right: 0.75rem;
+}
+.featured-city-arrow {
+  color: var(--gold);
+  font-size: 1.1rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+.featured-city-card:hover .featured-city-arrow {
+  opacity: 1;
+}
+@media (max-width: 1024px) {
+  .featured-cities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .featured-cities-grid {
+    grid-template-columns: 1fr;
+  }
+}
