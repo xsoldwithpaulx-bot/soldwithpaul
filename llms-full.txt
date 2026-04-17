@@ -47,23 +47,47 @@ With nearly two decades in Southern California real estate, I specialize in help
 
 [Learn More](./about.html)
 
-## Serving Southern California's Most Sought-After Markets
+## Serving 110 Cities Across Southern California
+
+Current median home prices from Infosparks/CRMLS data. Click any city for full market analytics.
 
 ### Los Angeles County
 
-From Whittier to Downtown LA, Downey to Long Beach — deep roots in LA County's diverse neighborhoods.
+[Whittier
+$859,776
+→](./areas/whittier.html)
+[La Mirada
+$926,554
+→](./areas/la-mirada.html)
 
 ### Orange County
 
-Fullerton, Anaheim, Brea, Buena Park, and La Habra — helping OC homeowners capitalize on strong demand.
+[Irvine
+$1,666,197
+→](./areas/irvine.html)
+[Brea
+$1,331,329
+→](./areas/brea.html)
 
 ### Riverside County
 
-Riverside, Corona, Moreno Valley, and Jurupa Valley — navigating the Inland Empire's growing market.
+[Corona
+$775,940
+→](./areas/corona.html)
+[Riverside
+$703,860
+→](./areas/riverside.html)
 
 ### San Bernardino County
 
-Ontario, Rancho Cucamonga, Fontana, and Upland — selling homes where opportunity meets affordability.
+[Rancho Cucamonga
+$875,525
+→](./areas/rancho-cucamonga.html)
+[Ontario
+$646,167
+→](./areas/ontario.html)
+
+[View all 110 cities →](./areas/)
 
 ## Ready to Find Out What Your Home Is Worth?
 
@@ -163,6 +187,82 @@ Over 200+ transactions have taught me that the best results come from a combinat
 I am not the agent who will pressure you into a decision. I am the agent who will give you the data, the strategy, and the honest guidance to make the best decision for your family. When you are ready, I am here.
 
 CA DRE# 01835505  |  NexGen Realtors
+
+200+
+
+Transactions Closed
+
+103%
+
+List-to-Sold Ratio
+
+25
+
+Avg Days on Market
+
+$4.4M
+
+Highest Transaction
+
+## Career Milestones
+
+2008
+
+#### Licensed as a California REALTOR
+
+Earned CA DRE license #01835505 and began building a foundation in Southern California real estate.
+
+2012
+
+#### Went Full-Time
+
+Committed to real estate as a full-time career, focusing on residential seller representation across LA and Orange counties.
+
+2020
+
+#### 100+ Transactions Milestone
+
+Crossed 100 closed transactions while maintaining a list-to-sold ratio above 100% throughout a turbulent market.
+
+2023
+
+#### Expanded to 4 Counties
+
+Extended full service coverage to Riverside and San Bernardino counties, serving the entire Southern California region.
+
+2025
+
+#### Joined NexGen Realtors
+
+Partnered with NexGen Realtors in Rancho Cucamonga, gaining access to expanded resources and technology to better serve clients.
+
+2026
+
+#### 200+ Transactions & Proprietary Market Intelligence
+
+Surpassed 200 closed transactions. Launched Infosparks-powered market analytics covering 174 cities across Southern California.
+
+## Areas I Serve
+
+I provide expert real estate representation across **110 cities** in four Southern California counties. Each city page includes current Infosparks market data updated monthly.
+
+#### Los Angeles County
+
+La Mirada, Whittier, Downey, Long Beach, Pasadena, and 30+ more
+
+#### Orange County
+
+Brea, Fullerton, Irvine, Anaheim, Huntington Beach, and 20+ more
+
+#### Riverside County
+
+Corona, Riverside, Temecula, Murrieta, Menifee, and 15+ more
+
+#### San Bernardino County
+
+Rancho Cucamonga, Ontario, Fontana, Upland, and 10+ more
+
+[Browse All 110 Cities →](./areas/)
 
 ## My Approach
 
