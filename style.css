@@ -1937,3 +1937,98 @@ p {
     padding: 0.1rem 0.4rem;
   }
 }
+
+/* ===== More Cities Grid (Tier 3 SEO link grid) ===== */
+.more-cities-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.more-cities-heading {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-primary, #ffffff);
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.02em;
+}
+
+.gold-divider-sm {
+  width: 60px;
+  height: 2px;
+  background: var(--gold, #C9A84C);
+  margin: 0 auto 2.5rem auto;
+}
+
+.more-cities-county {
+  margin-bottom: 2.5rem;
+}
+
+.more-cities-county:last-child {
+  margin-bottom: 0;
+}
+
+.more-cities-county-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold, #C9A84C);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.more-cities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.5rem 1.5rem;
+}
+
+.more-cities-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.more-cities-list a {
+  display: block;
+  color: var(--text-secondary, #cccccc);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.35rem 0;
+  transition: color 0.2s, padding-left 0.2s;
+  border-bottom: 1px solid transparent;
+}
+
+.more-cities-list a:hover {
+  color: var(--gold, #C9A84C);
+  padding-left: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .more-cities-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+  .more-cities-heading {
+    font-size: 1.4rem;
+  }
+  .more-cities-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem 1rem;
+  }
+  .more-cities-list a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .more-cities-list {
+    grid-template-columns: 1fr;
+  }
+}
+/* ===== /More Cities Grid ===== */
