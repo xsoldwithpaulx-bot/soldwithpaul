@@ -1791,3 +1791,149 @@ p {
   .about-stats-grid { grid-template-columns: repeat(2, 1fr); }
   .about-areas-grid { grid-template-columns: 1fr; }
 }
+/* ───────────────────────────────────────────────────────────────────
+   COMPARATIVE CITY TABLES — added April 26, 2026
+   Tier 1 city pages (10 pages). Dark theme + gold accent for current city.
+   ─────────────────────────────────────────────────────────────────── */
+
+.city-comparison {
+  padding: 4rem 1.5rem;
+  background: linear-gradient(180deg, rgba(212, 175, 55, 0.02) 0%, rgba(13, 13, 26, 0) 100%);
+  border-top: 1px solid rgba(212, 175, 55, 0.08);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.08);
+}
+
+.city-comparison .comp-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.city-comparison h2 {
+  color: #ffffff;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.city-comparison .comp-intro {
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 2rem 0;
+  max-width: 720px;
+}
+
+/* Horizontal scroll wrapper for narrow viewports */
+.city-comparison .comp-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.city-comparison .comp-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px; /* prevents excessive squish on narrow screens */
+  font-size: 0.95rem;
+}
+
+.city-comparison .comp-table thead th {
+  background: rgba(212, 175, 55, 0.08);
+  color: #d4af37;
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border-bottom: 2px solid rgba(212, 175, 55, 0.25);
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
+.city-comparison .comp-table thead th a {
+  color: #d4af37;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+  transition: border-color 0.15s ease;
+}
+
+.city-comparison .comp-table thead th a:hover {
+  border-bottom-color: #d4af37;
+}
+
+/* Current city header — solid gold treatment */
+.city-comparison .comp-table thead th.comp-current {
+  background: rgba(212, 175, 55, 0.18);
+  color: #ffffff;
+}
+
+.city-comparison .comp-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  background: #d4af37;
+  color: #0d0d1a;
+  vertical-align: middle;
+}
+
+.city-comparison .comp-table tbody th {
+  text-align: left;
+  font-weight: 500;
+  color: #cccccc;
+  padding: 0.95rem 1.25rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.9rem;
+}
+
+.city-comparison .comp-table tbody td {
+  color: #ffffff;
+  padding: 0.95rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Current city cells — gold tint to match header */
+.city-comparison .comp-table tbody td.comp-current {
+  background: rgba(212, 175, 55, 0.06);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.city-comparison .comp-table tbody tr:last-child th,
+.city-comparison .comp-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.city-comparison .comp-source {
+  color: #888;
+  font-size: 0.8rem;
+  margin: 1rem 0 0 0;
+  font-style: italic;
+}
+
+/* Mobile: stack-friendly. Table still scrolls but font drops a notch. */
+@media (max-width: 768px) {
+  .city-comparison {
+    padding: 2.5rem 1rem;
+  }
+  .city-comparison .comp-table {
+    font-size: 0.88rem;
+  }
+  .city-comparison .comp-table thead th,
+  .city-comparison .comp-table tbody th,
+  .city-comparison .comp-table tbody td {
+    padding: 0.7rem 0.85rem;
+  }
+  .city-comparison .comp-badge {
+    font-size: 0.62rem;
+    padding: 0.1rem 0.4rem;
+  }
+}
