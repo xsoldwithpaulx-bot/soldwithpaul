@@ -1,0 +1,16 @@
+# Backup files (timestamped backups from regenerator scripts)
+*.bak
+*.bak-*
+*.backup
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+*.swp
+*~
+
+# Local-only files
+.env
+.env.local
