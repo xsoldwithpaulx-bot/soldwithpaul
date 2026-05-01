@@ -820,7 +820,7 @@ body.hero-light .navbar:not(.scrolled) .hamburger span { background: var(--color
 /* ============================================================
    PAGE HERO
    ============================================================ */
-.page-hero, .article-hero, .city-hero, .listicle-hero {
+.page-hero, .article-hero, .listicle-hero {
   position: relative;
   padding: 10rem 0 5rem;
   background: var(--color-graphite);
@@ -838,7 +838,7 @@ body.hero-light .navbar:not(.scrolled) .hamburger span { background: var(--color
   opacity: 0.35;
 }
 .page-hero > *, .article-hero > * { position: relative; z-index: 2; }
-.page-hero h1, .article-hero h1, .city-hero h1, .listicle-hero h1 {
+.page-hero h1, .article-hero h1, .listicle-hero h1 {
   color: var(--color-paper);
   font-family: var(--font-display);
   font-weight: 300;
@@ -846,7 +846,7 @@ body.hero-light .navbar:not(.scrolled) .hamburger span { background: var(--color
   margin-bottom: 1.25rem;
   letter-spacing: -0.012em;
 }
-.page-hero p, .article-hero p, .city-hero p, .listicle-hero p {
+.page-hero p, .article-hero p, .listicle-hero p {
   color: rgba(248, 246, 242, 0.78);
   max-width: 760px;
   margin: 0 auto 0.5rem;
