@@ -234,7 +234,7 @@
   }
   </script>
 </head>
-<body>
+<body class="hero-light">
 
   <!-- ===== NAVIGATION ===== -->
   <nav class="navbar" id="navbar">
@@ -269,9 +269,14 @@
   <section class="hero">
     <div class="hero-bg" style="background-image: url('./assets/hero-aerial.jpg');"></div>
     <div class="hero-content">
-      <h1 class="hero-name">PAUL FERNANDEZ</h1>
-      <p class="hero-subtitle">REALTOR &nbsp;|&nbsp; Southern California</p>
-      <a href="https://hmbt.co/LzB884" target="_blank" rel="noopener noreferrer" class="btn-gold">What's Your Home Worth?</a>
+      <p class="tagline">Real Estate Advisory &middot; Southern California</p>
+      <h1 class="hero-name" style="font-family: var(--font-display); font-weight: 300; letter-spacing: -0.012em;">Real estate guidance<br>without the noise.</h1>
+      <hr class="gold-divider" style="margin: 2rem auto;">
+      <p class="hero-subtitle">Calm guidance, proven results, and clear strategy for homeowners across Los Angeles, Orange, Riverside, and San Bernardino counties. Eighteen years of quiet excellence.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top: 0.5rem;">
+        <a href="https://hmbt.co/LzB884" target="_blank" rel="noopener noreferrer" class="btn-gold">Get Seller Clarity</a>
+        <a href="./about.html" class="btn-outline">Meet Paul</a>
+      </div>
     </div>
     <div class="scroll-indicator">
       <span>Scroll</span>
@@ -280,43 +285,78 @@
   </section>
 
   <!-- ===== VALUE PROPOSITION ===== -->
-  <section class="section" style="background: var(--bg-primary);">
+  <section class="section" style="background: var(--color-stone);">
     <div class="container">
-      <h2 class="section-heading fade-in">Selling Your Home Should Be Strategic, Not Stressful</h2>
-      <div class="gold-divider fade-in"></div>
+      <p class="eyebrow fade-in" style="text-align:center; display:block;">The numbers behind the work</p>
+      <h2 class="section-heading fade-in">Here's what the data shows.</h2>
       <div class="stats-grid">
         <div class="stat-card fade-in">
-          <div class="stat-number">103%</div>
-          <div class="stat-label">List-to-Sold Ratio</div>
-          <p class="stat-desc">Consistently selling homes at or above asking price</p>
+          <span class="stat-number">103%</span>
+          <span class="stat-label">List-to-Sold</span>
+          <p class="stat-desc">Twelve-month average across closed transactions.</p>
         </div>
         <div class="stat-card fade-in">
-          <div class="stat-number">25 Days</div>
-          <div class="stat-label">Average Days on Market</div>
-          <p class="stat-desc">Strategic pricing and marketing that moves fast</p>
+          <span class="stat-number">25</span>
+          <span class="stat-label">Avg DOM (days)</span>
+          <p class="stat-desc">Well below the regional median.</p>
         </div>
         <div class="stat-card fade-in">
-          <div class="stat-number">200+</div>
-          <div class="stat-label">Transactions Closed</div>
-          <p class="stat-desc">A proven track record across Southern California</p>
+          <span class="stat-number">200+</span>
+          <span class="stat-label">Transactions</span>
+          <p class="stat-desc">Closed across four Southern California counties.</p>
+        </div>
+        <div class="stat-card fade-in">
+          <span class="stat-number">18</span>
+          <span class="stat-label">Years Guiding Sellers</span>
+          <p class="stat-desc">Licensed since 2008. Full-time since 2012.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ===== ABOUT PREVIEW ===== -->
-  <section class="section" style="background: var(--bg-secondary);">
+  <section class="section" style="background: var(--color-paper);">
     <div class="container">
       <div class="two-col">
-        <div class="two-col-text fade-in">
-          <h2>Why Sellers Trust Paul</h2>
-          <p>With nearly two decades in Southern California real estate, I specialize in helping homeowners maximize their property's value. My approach is straightforward &mdash; strategic pricing backed by data, professional marketing that showcases your home's best features, and a hands-on process that keeps you informed every step of the way. No pressure, no gimmicks. Just results.</p>
-          <a href="./about.html" class="btn-outline">Learn More</a>
-        </div>
         <div class="two-col-image fade-in">
           <div class="headshot-frame">
-            <img src="./assets/headshot.jpg" alt="Paul Fernandez, Southern California REALTOR specializing in seller representation" class="headshot-img" loading="lazy" width="480" height="600">
+            <img src="./assets/paul-portrait-seated.png" alt="Paul Fernandez, Southern California real estate advisor" class="headshot-img" loading="lazy">
           </div>
+        </div>
+        <div class="two-col-text fade-in">
+          <p class="eyebrow">The Advisor</p>
+          <h2 style="margin-bottom:1.5rem;">"He's on your side to protect you at all cost during the entire process."</h2>
+          <p>Paul Fernandez has spent eighteen years guiding Southern California homeowners through the moments where real estate decisions matter most &mdash; first homes, simultaneous moves, investment properties, and inherited homes settled during difficult seasons.</p>
+          <p style="color: var(--fg-muted); font-size: 0.95rem;">Clients describe him as calm, kind, thorough, sincere, and humble &mdash; an advisor who listens, gives honest strategic advice, and stays patient through every step.</p>
+          <a href="./about.html" class="link-bronze" style="margin-top: 1.5rem;">Read Paul's Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES (three quiet services) ===== -->
+  <section class="section" style="background: var(--color-paper); border-top: 1px solid var(--rule);">
+    <div class="container">
+      <p class="eyebrow fade-in" style="text-align:center; display:block;">What we do</p>
+      <h2 class="section-heading fade-in">Three quiet services. All built around clarity.</h2>
+      <div class="pillars-grid fade-in" style="margin-top: 3rem;">
+        <div>
+          <span class="gold-divider-sm" style="margin: 0 0 1.25rem;"></span>
+          <p class="eyebrow" style="color: var(--fg-muted); margin-bottom: 1rem;">Seller Advisory</p>
+          <h3 style="font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; letter-spacing: -0.012em; line-height: 1.25; margin-bottom: 0.75rem;">Selling well starts with understanding your options.</h3>
+          <p style="font-size: 0.95rem; color: var(--fg-muted);">A clear walk-through of timing, pricing, repairs, and tradeoffs &mdash; before you decide.</p>
+        </div>
+        <div>
+          <span class="gold-divider-sm" style="margin: 0 0 1.25rem;"></span>
+          <p class="eyebrow" style="color: var(--fg-muted); margin-bottom: 1rem;">Probate &amp; Trust</p>
+          <h3 style="font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; letter-spacing: -0.012em; line-height: 1.25; margin-bottom: 0.75rem;">Selling an inherited home, calmly.</h3>
+          <p style="font-size: 0.95rem; color: var(--fg-muted);">Designed for out-of-area heirs and family situations that need patience and process.</p>
+        </div>
+        <div>
+          <span class="gold-divider-sm" style="margin: 0 0 1.25rem;"></span>
+          <p class="eyebrow" style="color: var(--fg-muted); margin-bottom: 1rem;">Market Insight</p>
+          <h3 style="font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; letter-spacing: -0.012em; line-height: 1.25; margin-bottom: 0.75rem;">County-level analysis. No hype, just numbers.</h3>
+          <p style="font-size: 0.95rem; color: var(--fg-muted);">Across LA, Orange, Riverside, and San Bernardino. Updated monthly.</p>
         </div>
       </div>
     </div>
@@ -325,9 +365,9 @@
   <!-- ===== AREAS SERVED ===== -->
   <section class="section" style="background: var(--bg-primary);">
     <div class="container">
-      <h2 class="section-heading fade-in">Serving <span style="color: var(--gold);">110 Cities</span> Across Southern California</h2>
-      <div class="gold-divider fade-in"></div>
-      <p class="section-subtext fade-in" style="text-align:center; color: var(--text-muted); max-width: 700px; margin: 0 auto 2.5rem; font-size: 1.1rem;">Current median home prices from Infosparks/CRMLS data. Click any city for full market analytics.</p>
+      <p class="eyebrow fade-in" style="text-align:center; display:block;">Areas served</p>
+      <h2 class="section-heading fade-in">110 cities across four counties.</h2>
+      <p class="section-subtext fade-in">Current median home prices from Infosparks and CRMLS data. Select a city for full market analytics.</p>
       <div class="featured-cities-grid">
         <div class="featured-county-group fade-in">
           <h3 class="featured-county-label">Los Angeles County</h3>
@@ -654,36 +694,51 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="./index.html" class="nav-logo">SOLD WITH PAUL</a>
-          <p class="tagline">Southern California Seller Representation</p>
-          <p class="license">CA DRE# 01835505</p>
+          <a href="./index.html" class="nav-logo">PAUL FERNANDEZ</a>
+          <hr class="gold-divider" style="margin: 1rem 0; width: 36px;">
+          <p style="font-family: var(--font-body); font-size: 0.7rem; letter-spacing: 0.32em; text-transform: uppercase; color: rgba(248,246,242,0.7); margin: 0;">Real Estate Advisory</p>
+          <p>Calm guidance for Southern California sellers. Serving Los Angeles, Orange, Riverside, and San Bernardino counties.</p>
         </div>
         <div>
           <h4>Quick Links</h4>
           <div class="footer-links">
             <a href="./index.html">Home</a>
             <a href="./about.html">About</a>
-            <a href="./blog.html">Blog</a>
+            <a href="./blog.html">Journal</a>
+            <a href="./areas/">Areas Served</a>
             <a href="./contact.html">Contact</a>
             <a href="https://hmbt.co/LzB884" target="_blank" rel="noopener noreferrer">Home Valuation</a>
-            <a href="https://outlook.office.com/book/Gc85aea630086427c9a47200c18fcf3a0@NETORG336472.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Schedule Consultation</a>
+            <a href="https://outlook.office.com/book/Gc85aea630086427c9a47200c18fcf3a0@NETORG336472.onmicrosoft.com/?ismsaljsauthenabled" target="_blank" rel="noopener noreferrer">Schedule a Consultation</a>
           </div>
         </div>
         <div>
-          <h4>Connect</h4>
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="tel:+13235961523">(323) 596-1523</a>
+            <a href="mailto:paul@soldwithpaul.com">paul@soldwithpaul.com</a>
+            <a href="https://soldwithpaul.com">soldwithpaul.com</a>
+            <a href="https://www.instagram.com/soldwithpaul/" target="_blank" rel="noopener noreferrer">@soldwithpaul</a>
+          </div>
+        </div>
+        <div>
+          <h4>Compliance</h4>
+          <div class="footer-links">
+            <span style="color: rgba(248,246,242,0.7); font-size: 0.875rem;">Paul Fernandez</span>
+            <span style="color: rgba(248,246,242,0.7); font-size: 0.875rem;">NexGen Realtors</span>
+            <span style="color: rgba(248,246,242,0.7); font-size: 0.875rem;">CA DRE #01835505</span>
+          </div>
+          <h4 style="margin-top: 1.5rem;">Connect</h4>
           <div class="footer-social">
-            <a href="https://x.com/soldwithpaul" target="_blank" rel="noopener noreferrer">X</a>
-            <a href="https://www.instagram.com/soldwithpaul/" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://www.facebook.com/soldwithpaul" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://www.linkedin.com/in/pbfernandez/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://www.youtube.com/@soldwithpaul" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="https://www.zillow.com/profile/soldwithpaul" target="_blank" rel="noopener noreferrer">Zillow</a>
-            <a href="https://share.google/wNODHjffOS3GZD7PT" target="_blank" rel="noopener noreferrer">Google</a>
+            <a href="https://x.com/soldwithpaul" target="_blank" rel="noopener noreferrer" aria-label="X">X</a>
+            <a href="https://www.instagram.com/soldwithpaul/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+            <a href="https://www.linkedin.com/in/pbfernandez/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LI</a>
+            <a href="https://www.youtube.com/@soldwithpaul" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YT</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 Paul Fernandez, Realtor. CA DRE# 01835505. NexGen Realtors.</p>
+        <span>&copy; 2026 Sold With Paul &middot; All rights reserved</span>
+        <span>Calm Guidance &middot; Proven Results</span>
       </div>
     </div>
   </footer>
