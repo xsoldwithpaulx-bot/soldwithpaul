@@ -626,13 +626,13 @@ body.hero-light .navbar:not(.scrolled) .hamburger span { background: var(--color
   transition: transform var(--transition);
   flex-shrink: 0;
 }
-.faq-item.open .faq-icon { transform: rotate(45deg); }
+.faq-item.open .faq-icon, .faq-item.active .faq-icon { transform: rotate(45deg); }
 .faq-answer {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease;
 }
-.faq-item.open .faq-answer { max-height: 500px; }
+.faq-item.open .faq-answer, .faq-item.active .faq-answer { max-height: 1200px; }
 .faq-answer-inner, .faq-answer p {
   padding-top: 1rem;
   color: var(--fg-muted);
@@ -785,6 +785,16 @@ body.hero-light .navbar:not(.scrolled) .hamburger span { background: var(--color
   color: var(--color-paper);
 }
 .footer-social a:hover { border-color: var(--accent); opacity: 1; }
+.footer-social a svg, .social-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  display: block;
+}
+.social-links-list .social-link svg {
+  width: 20px;
+  height: 20px;
+}
 .footer-bottom {
   padding-top: 2rem;
   display: flex;
