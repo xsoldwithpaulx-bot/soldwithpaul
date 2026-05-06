@@ -14,3 +14,4 @@ Thumbs.db
 # Local-only files
 .env
 .env.local
+*.bak.*

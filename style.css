@@ -1886,3 +1886,307 @@ body.hero-light .navbar:not(.scrolled) .hamburger span { background: var(--color
   .navbar, .footer, .cta-banner, .scroll-indicator { display: none; }
   body { background: #fff; color: #000; }
 }
+/* ═══════════════════════════════════════════════════════════════════════════
+   COUNTY HUB PAGES
+   Append to ~/soldwithpaul-site/style.css
+   Reuses existing variables: dark bg, gold accent, white text, area-cards grid
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.county-hub-page {
+  background-color: #0d0d1a;
+  color: #ffffff;
+}
+
+/* Hero ────────────────────────────────────────────────────────────────────── */
+
+.county-hero {
+  padding: 120px 24px 80px;
+  text-align: center;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.county-hero-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.county-hero-eyebrow {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #d4af37;
+  margin-bottom: 24px;
+}
+
+.county-hero-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 32px;
+}
+
+.county-hero-lede {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 720px;
+  margin: 0 auto 40px;
+}
+
+.county-hero-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Section titles ──────────────────────────────────────────────────────────── */
+
+.county-snapshot,
+.county-commentary,
+.county-why-paul,
+.county-cities,
+.county-faq,
+.county-cta {
+  padding: 80px 24px;
+}
+
+.county-snapshot-inner,
+.county-commentary-inner,
+.county-why-paul-inner,
+.county-cities-inner,
+.county-faq-inner,
+.county-cta-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 48px;
+}
+
+/* Stat grid ───────────────────────────────────────────────────────────────── */
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 2px;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 16px;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #d4af37;
+  margin-bottom: 8px;
+}
+
+.stat-trend {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Commentary ──────────────────────────────────────────────────────────────── */
+
+.county-commentary {
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(212, 175, 55, 0.1);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.commentary-body {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.commentary-body p {
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.commentary-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Why Paul ────────────────────────────────────────────────────────────────── */
+
+.why-paul-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.why-paul-card {
+  text-align: center;
+  padding: 24px;
+}
+
+.why-paul-stat {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #d4af37;
+  margin-bottom: 12px;
+}
+
+.why-paul-label {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.why-paul-tagline {
+  text-align: center;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 24px;
+}
+
+/* FAQ ─────────────────────────────────────────────────────────────────────── */
+
+.county-faq {
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(212, 175, 55, 0.1);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.county-faq-inner .faq-item {
+  max-width: 760px;
+  margin: 0 auto 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.county-faq-inner .faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #d4af37;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* CTA ─────────────────────────────────────────────────────────────────────── */
+
+.county-cta {
+  text-align: center;
+  background: linear-gradient(180deg, #0d0d1a 0%, #15152a 100%);
+  border-top: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.county-cta-lede {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.btn-large {
+  font-size: 1.05rem;
+  padding: 18px 40px;
+}
+
+.county-cta-contact {
+  margin-top: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+}
+
+.county-cta-contact a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+.county-cta-contact a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile ──────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .county-snapshot,
+  .county-commentary,
+  .county-why-paul,
+  .county-cities,
+  .county-faq,
+  .county-cta {
+    padding: 60px 20px;
+  }
+
+  .county-hero {
+    padding: 100px 20px 60px;
+  }
+
+  .stat-grid,
+  .why-paul-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    padding: 24px 20px;
+  }
+
+  .stat-value {
+    font-size: 1.6rem;
+  }
+
+  .why-paul-stat {
+    font-size: 2rem;
+  }
+
+  .commentary-body {
+    font-size: 1rem;
+  }
+}
+
+/* County hub links inside featured-county-label headers */
+.featured-county-label a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.featured-county-label a:hover {
+  color: #d4af37;
+  border-bottom-color: #d4af37;
+}
