@@ -542,6 +542,119 @@
     </div>
   </section>
 
+  <!-- ===== SELLERS GUIDE CTA (Paper White hero) ===== -->
+  <section class="sg-cta" aria-labelledby="sg-cta-heading">
+    <div class="container sg-cta-inner fade-in">
+      <div class="sg-cta-text">
+        <div class="sg-cta-eyebrow">The 2026 Seller's Guide</div>
+        <h2 id="sg-cta-heading">Selling well starts with understanding your options<span class="sg-cta-period">.</span></h2>
+        <p class="sg-cta-lead">Ten chapters covering pricing strategy, market timing, listing preparation, and the negotiation math that determines net proceeds. Built from 200+ Southern California transactions.</p>
+        <div class="sg-cta-meta">
+          <div class="sg-cta-meta-item"><span>Format</span><strong>PDF · 10 pages</strong></div>
+          <div class="sg-cta-meta-item"><span>Edition</span><strong>Q1 2026</strong></div>
+          <div class="sg-cta-meta-item"><span>Cost</span><strong>Free</strong></div>
+        </div>
+        <a href="/sellers-guide.html?utm_source=site&utm_medium=cta&utm_campaign=guide_2026q1&utm_content=hero_homepage" class="sg-cta-button">Download the Guide</a>
+      </div>
+      <div class="sg-cta-cover">
+        <img src="/assets/sellers-guide-cover.jpg" alt="2026 Southern California Seller's Guide — Q1 edition cover" width="1275" height="1650" loading="lazy">
+      </div>
+    </div>
+  </section>
+  <style>
+    .sg-cta {
+      background: var(--color-paper);
+      padding: 96px 0;
+      border-top: 1px solid var(--rule, rgba(107, 104, 99, 0.22));
+    }
+    .sg-cta-inner {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .sg-cta-eyebrow {
+      font-family: var(--font-body);
+      font-size: 11px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--color-bronze);
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+    .sg-cta h2 {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(36px, 5vw, 56px);
+      line-height: 1.1;
+      letter-spacing: -0.015em;
+      color: var(--color-graphite);
+      margin: 0 0 24px 0;
+    }
+    .sg-cta-period { color: var(--color-bronze); }
+    .sg-cta-lead {
+      font-family: var(--font-body);
+      font-size: 17px;
+      line-height: 1.65;
+      color: var(--color-graphite);
+      margin: 0 0 40px 0;
+      max-width: 480px;
+    }
+    .sg-cta-meta {
+      display: flex;
+      gap: 32px;
+      margin-bottom: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--color-bronze);
+    }
+    .sg-cta-meta-item span {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--color-warm-gray, #6B6863);
+      margin-bottom: 4px;
+    }
+    .sg-cta-meta-item strong {
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 15px;
+      color: var(--color-graphite);
+    }
+    .sg-cta-button {
+      display: inline-block;
+      background: var(--color-graphite);
+      color: var(--color-paper);
+      padding: 18px 36px;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 1px;
+      transition: opacity 200ms ease-out;
+    }
+    .sg-cta-button:hover { opacity: 0.85; }
+    .sg-cta-cover {
+      display: flex;
+      justify-content: center;
+    }
+    .sg-cta-cover img {
+      max-width: 100%;
+      height: auto;
+      width: 420px;
+      border: 1px solid var(--rule, rgba(107, 104, 99, 0.22));
+    }
+    @media (max-width: 768px) {
+      .sg-cta { padding: 64px 0; }
+      .sg-cta-inner { grid-template-columns: 1fr; gap: 48px; }
+      .sg-cta-cover { order: -1; }
+      .sg-cta-cover img { width: 280px; }
+      .sg-cta-meta { gap: 20px; flex-wrap: wrap; }
+    }
+  </style>
   <!-- ===== CTA BANNER ===== -->
   <section class="cta-banner">
     <div class="hero-bg" style="background-image: url('./assets/cta-home.jpg');"></div>
